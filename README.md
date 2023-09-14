@@ -67,7 +67,8 @@ This repository aims to provide a comprehensive learning path for mastering Chat
 - **AI Ethics and Social Impact (2 weeks)**: 1-2 hours/day
   - Bias and fairness, transparency, accountability, and ethical considerations in AI.
  
-  - ![Learning Path](https://github.com/JeanphiloGong/Transformers_Models_Learning_Path/assets/123850343/06f9862f-1293-4ace-a140-cf082dc3c0f3)
+  - ![mermaid-diagram-2023-09-14-151819](https://github.com/JeanphiloGong/Transformers_Models_Learning_Path/assets/123850343/b3dd2d63-3a90-4459-be04-7f208c0f8449)
+
 
 
 ## Resources
