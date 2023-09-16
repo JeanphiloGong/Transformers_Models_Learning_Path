@@ -1,17 +1,29 @@
 \documentclass{book}
 \usepackage{hyperref}
+\usepackage{amsmath}  % for mathematical symbols and environments
+
+\title{Concrete Mathematics (A Foundation For Computer Science)}
+\author{Jeanphilo Gong}
+\date{Sep, 16, 2023}
 
 \begin{document}
 
-\tableofcontents
+\maketitle  % Generates the title page
 
-\title{Concrete Mathematics (A Foundation For Computer Science)}
+\tableofcontents  % Generates a table of contents
 
 \chapter{Recurrent Problems}
 
 \section{The Tower of Hanoi}
+
+\subsection*{Mathematical induction}
+
+Mathematical induction is a way to prove some statement about the integer \( n \) is true for all \( n \geq n_0 \). First we prove the statement when \( n \) has its smallest value, \( n_0 \); this is called the basis. Then we prove the statement for \( n > n_0 \), assuming that it has already been proved for all values between \( n_0 \) and \( n - 1 \), inclusive; this is called the induction. Such a proof gives infinitely many results with only a finite amount of work.
+
 \section{Lines in the Plane}
+
 \section{The Josephus Problem}
+
 \section*{Exercises}
 
 \chapter{Sums}
