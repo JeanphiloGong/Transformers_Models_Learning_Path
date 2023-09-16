@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository aims to provide a comprehensive learning path for mastering ChatGPT and related technologies. Whether you are a beginner or an experienced developer, this guide will help you understand the underlying technologies, methodologies, and best practices in building and deploying ChatGPT models.
+This repository aims to provide a comprehensive learning path for mastering Transformer models and related technologies. Whether you are a beginner or an experienced developer, this guide will help you understand the underlying technologies, methodologies, and best practices in building and deploying Transformer models.
 
 ## Table of Contents
 
