@@ -1,5 +1,8 @@
 \documentclass{book}
 \usepackage{hyperref}
+\usepackage{amsmath}
+
+
 
 \begin{document}
 
@@ -7,33 +10,210 @@
 
 \title{Linear Algebra}
 
+% Chapter 1
 \chapter{Introduction to Vectors}
 
 \section{Vectors and Linear Combinations}
+
 \section{Lengths and Dot Products}
+
 \section{Matrices}
+
 \subsection{Linear Equations}
+
 \subsection{The Inverse Matrix}
 this part is so hard
 
 \subsection{Cyclic Differences}
 
+
+
+
+
+% Chapter 2
 \chapter{Solving Linear Equations}
+\section{Vectors and Linear Equations}
 
+\section{The Idea of Elimination}
+\subsection*{Second lecture}
+    \subsubsection{Elimination}
+    \subsubsection{Back substitution}
+    Here, we need to pay attention to the particularity of the matrix
+    \begin{align}
+        \begin{bmatrix}
+          a & b \\
+          c & d
+        \end{bmatrix}
+        \times
+        \begin{bmatrix}
+          e & f \\
+          g & h
+        \end{bmatrix}
+        =
+        \begin{bmatrix}
+          ae + bg & af + bh \\
+          ce + dg & cf + dh
+        \end{bmatrix}
+      \end{align}
+
+
+
+\section{Elimination Using Matrices}
+
+\section{Rules for Matrix Operations}
+
+\section{Inverse Matrices}
+
+\section{Elimination = Factorization: A = LU}
+
+\section{Transposes and Permutations}
+
+
+
+% Chapter 3
 \chapter{Vector Spaces and Subspaces}
+\section{Spaces of Vectors}
 
+\section{The Nullspace of A: Solving Ax = 0}
+
+\section{The Rank and the Row Reduced Form}
+
+\section{The Complete Solution to Ax = b}
+
+\section{Independence, Basis and Dimension}
+
+\section{Dimensions of the Four Subspaces}
+
+
+
+
+
+
+
+
+
+
+% Chapter 4
 \chapter{Orthogonality}
+\section{Orthogonality of the Four Subspaces}
 
+\section{Projections}
+
+\section{Least Squares Approximations}
+
+\section{Orthogonal Bases and Gram-Schmidt}
+
+
+
+
+
+
+
+% Chapter 5
 \chapter{Determinants}
+\section{The Properties of Determinants}
 
+\section{Permutations and Cofactors}
+
+\section{Cramer's Rule, Inverse, and Volumes}
+
+
+
+
+
+
+
+
+% Chapter 6
 \chapter{Elgenvalues and Elgenvectors}
+\section{Introduction to Eigenvalues}
 
+\section{Diagonalizing a Matrix}
+
+\section{Applications to Differential Equations}
+
+\section{Symmetric Matrices}
+
+\section{Positive Definite Matrices}
+
+\section{Similar Matrices}
+
+\section{Singular Value Decomposition}
+
+
+
+
+
+
+
+
+% Chapter 7
 \chapter{Linear Transformations}
+\section{The idea of a Linear Transformation}
 
+\section{The Matrix of a Linear Transformation}
+
+\section{Diagonalization and the Pseudoinverse}
+
+
+
+
+
+
+
+
+
+% Chapter 8
 \chapter{Applications}
+\section{Matrices in Engineering}
 
+\section{Graphs and Networks}
+
+\section{Markov Matrices, Population, and Economics}
+
+\section{Linear Programming}
+
+\section{Fourier Series: Linear Algebra for Functions}
+
+\section{Linear Algebra for Statistics and Probability}
+
+\section{Computer Graphics}
+
+
+
+
+
+
+
+
+
+
+% Chapter 9
 \chapter{Numerical Linear Algebra}
+\section{Gaussian Elimination in Practice}
 
+\section{Norms and Condition Numbers}
+
+\section{Iterative Methods and Preconditioners}
+
+
+
+
+
+
+
+
+
+
+% Chapter 10
 \chapter{Complex Vectors and Matrices}
+\section{Complex Numbers}
+
+\section{Hermitian and Unitary Matrices}
+
+\section{The Fast Fourier Transform}
+
+
+
 
 \end{document}
