@@ -10,13 +10,37 @@
 
 \title{Linear Algebra}
 
-% Chapter 1
+% Chapter 1Introduction to Vectors
 \chapter{Introduction to Vectors}
 
+% 1.1.Vectors and Linear Combinations
 \section{Vectors and Linear Combinations}
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item A vector \( \mathbf{v} \) in two-dimensional space has two components \( v_1 \) and \( v_2 \).
+        \item \( \mathbf{v} + \mathbf{w} = (v_1 + w_1, v_2 + w_2) \) and \( c\mathbf{v} = (cv_1, cv_2) \) are found a component at a time.
+        \item A linear combination of three vectors \( \mathbf{u} \) and \( \mathbf{v} \) and \( \mathbf{w} \) is \( c \mathbf{u} + d\mathbf{v} + e\mathbf{w}\).
+        \item Take all linear combination of \textbf{u}, or \textbf{u} and \textbf{v}, or \textbf{u, v, w}. In three dimensions, those combinations typically fill a line, then a plane, and the whole space \( \mathbf{R}^3\).
+    \end{enumerate}
 
+% 1.2.Lengths and Dot Products
 \section{Lengths and Dot Products}
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item The dot product \( \mathbf{v} \cdot \mathbf{w} \) multiplies each component \( v_i \) by \( w_i \) and adds all \( v_i w_i \).
+        \item The length \( \| \mathbf{v} \| \) of a vector is the square root of \( \mathbf{v} \cdot \mathbf{v} \).
+        \item \( \mathbf{u} = \frac{\mathbf{v}}{\| \mathbf{v} \|} \) is a \textbf{unit vector}, its length is 1.
+        \item The cosine product is \( \mathbf{v} \cdot \mathbf{w} = 0 \) when vector \( \mathbf{v} \) and \( \mathbf{w} \) are perpendicular.
+        \item The cosine of \( \theta \) (the angle between any nonzero \( \mathbf{v} \) and \( \mathbf{w} \)) never exceeds 1: \\
+        \[
+        \cos \theta = \frac{\mathbf{v} \cdot \mathbf{w}}{\| \mathbf{v} \| \| \mathbf{w} \|} \quad \text{(Schwarz inequality)} \quad | \mathbf{v} \cdot \mathbf{w} | \leq \| \mathbf{v} \| \| \mathbf{w} \|
+        \]
+         Problem 21 will produce the \textbf{triangle inequality} \( \| \mathbf{v} + \mathbf{w} \| \leq \| \mathbf{v} \| + \| \mathbf{w} \| \).
+    \end{enumerate}
 
+
+
+% 1.3.Matrices
 \section{Matrices}
 
 \subsection{Linear Equations}
@@ -26,6 +50,17 @@ this part is so hard
 
 \subsection{Cyclic Differences}
 
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item  \textbf{Matrix times vector:} \( \mathbf{Ax} = combination of the columns of A.\)
+        \item The solution to \( Ax = b is x = A^{-1}b, when A is an invertible matrix.\)
+        \item The difference matrix A is inverted by the sum matrix \( \mathbf{S = A^{-1}}\).
+        \item The cyclic matrix \textbf{C} has no inverse. Its three columns lie in the same plane\\
+        Those dependent columns add to the zero vector. \( \mathbf{Cx = 0}\) has many solutions.
+        \item This section is looking ahead to key ideas. not fully explained yet.
+
+    \end{enumerate}
+
 
 
 
@@ -33,6 +68,10 @@ this part is so hard
 % Chapter 2
 \chapter{Solving Linear Equations}
 \section{Vectors and Linear Equations}
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item  
+    \end{enumerate}
 
 \section{The Idea of Elimination}
 \subsection*{Second lecture}
@@ -55,19 +94,42 @@ this part is so hard
           ce + dg & cf + dh
         \end{bmatrix}
       \end{align}
-
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+          \item  
+    \end{enumerate}
+   
 
 
 \section{Elimination Using Matrices}
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item  
+    \end{enumerate}
 
 \section{Rules for Matrix Operations}
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item  
+    \end{enumerate}
 
 \section{Inverse Matrices}
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item  
+    \end{enumerate}
 
 \section{Elimination = Factorization: A = LU}
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item  
+    \end{enumerate}
 
 \section{Transposes and Permutations}
-
+\subsection*{REVIEW OF THE KEY IDEAS}
+    \begin{enumerate}
+        \item  
+    \end{enumerate}
 
 
 % Chapter 3
